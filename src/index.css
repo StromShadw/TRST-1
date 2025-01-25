@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap");
+
+/* * {
+  font-family: 'Sen', 'Montserrat', 'sans-serif';
+} */
+
+/* Custom scrollbar for dark mode */
+.menu-bar::-webkit-scrollbar {
+  width: 2px !important;
+}
+
+.menu-bar::-webkit-scrollbar-thumb {
+  background: #555;  /* Darker thumb color */
+  border-radius: 2px;
+}
+
+.menu-bar::-webkit-scrollbar-thumb:hover {
+  background: #222;  /* Darker thumb hover color */
+}
+
+.menu-bar::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 4px;
+}
+
+
+/* Global font family */
+* {
+  font-family: 'Sen', 'Montserrat', 'sans-serif';
+}

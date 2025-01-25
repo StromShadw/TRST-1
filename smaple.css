@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .header-upper {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .header-upper.dark-theme {
+    background-color: #001529;
+    color: #ffffff;
+  }
+  
+  .header-upper.light-theme {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  .dark-logo{
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  
+  
+  
+  .side-header button {
+    font-size: 1rem;
+    color: #000000;
+    border-radius: 50%;
+    background-color: #ffffff;
+    height: 30px;
+    width: 30px;
+    border: 0;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 6px;
+  }
+  
+  .side-header.dark-theme button {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  
+  /* .menu-bar {
+    max-height: calc(100vh - 64px);  Adjust as needed
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  WebKit Browsers
+  .menu-bar::-webkit-scrollbar {
+    width: 2px !important; Width of the vertical scrollbar
+    height: 10px !important;
+  }
+  
+  .menu-bar::-webkit-scrollbar-thumb {
+    background: #888; Scrollbar color
+    border-radius: 2px; Rounded edges
+  }
+  
+  .menu-bar::-webkit-scrollbar-thumb:hover {
+    background: #555; Color on hover
+  }
+  
+  .menu-bar::-webkit-scrollbar-track {
+    background: transparent; Background of the scrollbar track
+    border-radius: 4px;
+  }
+  
+  Firefox
+  .menu-bar {
+    scrollbar-width: thin; Make scrollbar thinner
+    scrollbar-color: blue; Scrollbar thumb and track colors
+  }
+  
+  Edge/IE (fallback styles)
+  .menu-bar {
+    scrollbar-width: auto;
+  } */
+  
+  /* .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    height: 60px;  Default sider height 
+    overflow: hidden;  Ensure content doesn't overflow 
+    margin-right: 5px;
+  
+    cursor: pointer;
+  }
+  .logo-toggle {
+    display: flex;
+    border-bottom: 1px solid #818181;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo img {
+    transition: height 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .logo.collapsed img {
+    display: none;
+  } */
+  
+  .recent-item {
+    border: 0.5px solid #333;
+    padding-left: 20px;
+  }
+  
+  
+  
+  .toggle-theme-btn {
+    display: inline-block;
+    align-items: center;
+    border-radius: 10px;
+  }
+  .toggle-theme-btn .btn {
+    margin: 10px;
+  }
+  
+  .dark-mode-button {
+    color: #ffffff;
+    border: none;
+    margin: 0px 40px;
+  }
+  
+  .light-mode-button {
+    color: #000000;
+    border: none;
+    margin: 0px 40px;
+  }
+  
+  
+  
+  
+  .logo-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .logo-name .logo-side-name{
+    color: #fff;
+    font-weight: 600;
+    padding-left: 10px;
+    font-size: 1rem;
+  }
+  .logo-name .logo-side-icon{
+    font-size: 1.5rem;
+    padding-left: 5px;
+    margin-top: 5px;
+    color: #fff;
+  }
+  
+  .side-header button{
+    font-size: 1rem;
+    color: #000000;
+    border-radius: 50%;
+    background-color: #ffffff;
+    height: 30px;
+    width: 30px;
+    border: 0;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 6px;
+  }
